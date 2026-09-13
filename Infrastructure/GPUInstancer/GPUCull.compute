@@ -1,0 +1,30 @@
+#pragma kernel CSMain
+
+StructuredBuffer<float4x4> _InstanceMatrices;
+AppendStructuredBuffer<uint> _VisibleIndices;
+
+float4 _FrustumPlanes[6];
+uint _InstanceCount;
+
+bool IsVisible(float3 position)
+{
+    for (int i = 0; i < 6; i++)
+    {
+        if (dot(_FrustumPlanes[i].xyz, position) + _FrustumPlanes[i].w < 0)
+            return false;
+    }
+    return true;
+}
+
+[numthreads(256, 1, 1)]
+void CSMain(uint3 id : SV_DispatchThreadID)
+{
+    if (id.x >= _InstanceCount)
+        return;
+
+    float4x4 m = _InstanceMatrices[id.x];
+    float3 position = float3(m._m03, m._m13, m._m23);
+
+    if (IsVisible(position))
+        _VisibleIndices.Append(id.x);
+}

@@ -1,0 +1,297 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!200 &20000000
+ShaderVariantCollection:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: NewShaderVariants
+  m_Shaders:
+  - first: {fileID: 66, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9000, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9001, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9002, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9003, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9004, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9007, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9101, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
+    second:
+      variants:
+      - keywords: PROBE_VOLUMES_L1 _ADDITIONAL_LIGHTS
+        passType: 13
+      - keywords: PROBE_VOLUMES_L1 _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS _DBUFFER_MRT3
+          _EMISSION _ENVIRONMENTREFLECTIONS_OFF _LIGHT_LAYERS _MAIN_LIGHT_SHADOWS_CASCADE
+          _RECEIVE_SHADOWS_OFF _REFLECTION_PROBE_BLENDING _REFLECTION_PROBE_BOX_PROJECTION
+          _SHADOWS_SOFT _SPECULARHIGHLIGHTS_OFF
+        passType: 13
+      - keywords: PROBE_VOLUMES_L1 _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS _DBUFFER_MRT3
+          _EMISSION _ENVIRONMENTREFLECTIONS_OFF _RECEIVE_SHADOWS_OFF _REFLECTION_PROBE_BLENDING
+          _REFLECTION_PROBE_BOX_PROJECTION _SPECULARHIGHLIGHTS_OFF
+        passType: 13
+      - keywords: PROBE_VOLUMES_L1 _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS _DBUFFER_MRT3
+          _ENVIRONMENTREFLECTIONS_OFF _LIGHT_LAYERS _MAIN_LIGHT_SHADOWS_CASCADE _NORMALMAP
+          _REFLECTION_PROBE_BLENDING _REFLECTION_PROBE_BOX_PROJECTION _SHADOWS_SOFT
+        passType: 13
+      - keywords: PROBE_VOLUMES_L1 _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS _DBUFFER_MRT3
+          _ENVIRONMENTREFLECTIONS_OFF _LIGHT_LAYERS _MAIN_LIGHT_SHADOWS_CASCADE _REFLECTION_PROBE_BLENDING
+          _REFLECTION_PROBE_BOX_PROJECTION _SHADOWS_SOFT _SPECULARHIGHLIGHTS_OFF
+        passType: 13
+      - keywords: PROBE_VOLUMES_L1 _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS _DBUFFER_MRT3
+          _ENVIRONMENTREFLECTIONS_OFF _NORMALMAP _REFLECTION_PROBE_BLENDING _REFLECTION_PROBE_BOX_PROJECTION
+        passType: 13
+      - keywords: PROBE_VOLUMES_L1 _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS _DBUFFER_MRT3
+          _ENVIRONMENTREFLECTIONS_OFF _REFLECTION_PROBE_BLENDING _REFLECTION_PROBE_BOX_PROJECTION
+          _SPECULARHIGHLIGHTS_OFF
+        passType: 13
+      - keywords: PROBE_VOLUMES_L1 _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS _DBUFFER_MRT3
+          _LIGHT_LAYERS _MAIN_LIGHT_SHADOWS_CASCADE _NORMALMAP _OCCLUSIONMAP _REFLECTION_PROBE_BLENDING
+          _REFLECTION_PROBE_BOX_PROJECTION _SHADOWS_SOFT
+        passType: 13
+      - keywords: PROBE_VOLUMES_L1 _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS _DBUFFER_MRT3
+          _NORMALMAP _OCCLUSIONMAP _REFLECTION_PROBE_BLENDING _REFLECTION_PROBE_BOX_PROJECTION
+        passType: 13
+      - keywords: PROBE_VOLUMES_L1 _ADDITIONAL_LIGHTS _LIGHT_LAYERS _MAIN_LIGHT_SHADOWS_CASCADE
+        passType: 13
+      - keywords: PROBE_VOLUMES_L1 _ADDITIONAL_LIGHTS _LIGHT_LAYERS _MAIN_LIGHT_SHADOWS_CASCADE
+          _NORMALMAP
+        passType: 13
+      - keywords: PROBE_VOLUMES_L1 _ADDITIONAL_LIGHTS _LIGHT_LAYERS _MAIN_LIGHT_SHADOWS_CASCADE
+          _RECEIVE_SHADOWS_OFF
+        passType: 13
+      - keywords: PROBE_VOLUMES_L1 _ADDITIONAL_LIGHTS _NORMALMAP
+        passType: 13
+      - keywords: PROBE_VOLUMES_L1 _ADDITIONAL_LIGHTS _RECEIVE_SHADOWS_OFF
+        passType: 13
+  - first: {fileID: -6465566751694194690, guid: a9517b14df2b7454c934bc553a47d3d8, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: -6465566751694194690, guid: 4e9cbd85673f2b641aa16dd5bfbd1a10, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 8
+      - keywords: INSTANCING_ON
+        passType: 8
+      - keywords: _CASTING_PUNCTUAL_LIGHT_SHADOW
+        passType: 8
+      - keywords: 
+        passType: 13
+      - keywords: INSTANCING_ON
+        passType: 13
+      - keywords: INSTANCING_ON PROBE_VOLUMES_L1 _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS
+          _DBUFFER_MRT3 _LIGHT_LAYERS _MAIN_LIGHT_SHADOWS_CASCADE _REFLECTION_PROBE_BLENDING
+          _REFLECTION_PROBE_BOX_PROJECTION _SHADOWS_SOFT
+        passType: 13
+      - keywords: INSTANCING_ON PROBE_VOLUMES_L1 _ADDITIONAL_LIGHTS _MAIN_LIGHT_SHADOWS_CASCADE
+        passType: 13
+      - keywords: PROBE_VOLUMES_L1 _ADDITIONAL_LIGHTS
+        passType: 13
+      - keywords: PROBE_VOLUMES_L1 _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS _DBUFFER_MRT3
+          _LIGHT_LAYERS _MAIN_LIGHT_SHADOWS_CASCADE _REFLECTION_PROBE_BLENDING _REFLECTION_PROBE_BOX_PROJECTION
+          _SHADOWS_SOFT
+        passType: 13
+      - keywords: PROBE_VOLUMES_L1 _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS _DBUFFER_MRT3
+          _REFLECTION_PROBE_BLENDING _REFLECTION_PROBE_BOX_PROJECTION
+        passType: 13
+      - keywords: PROBE_VOLUMES_L1 _ADDITIONAL_LIGHTS _MAIN_LIGHT_SHADOWS_CASCADE
+        passType: 13
+  - first: {fileID: -6465566751694194690, guid: 7876271614b051e439952c53998c8af6, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: -6465566751694194690, guid: 15b7096c155f5bd4d83f9effee4c0229, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 8
+      - keywords: INSTANCING_ON
+        passType: 8
+      - keywords: INSTANCING_ON _CASTING_PUNCTUAL_LIGHT_SHADOW
+        passType: 8
+      - keywords: _CASTING_PUNCTUAL_LIGHT_SHADOW
+        passType: 8
+      - keywords: 
+        passType: 13
+      - keywords: INSTANCING_ON
+        passType: 13
+      - keywords: INSTANCING_ON PROBE_VOLUMES_L1 _ADDITIONAL_LIGHTS
+        passType: 13
+      - keywords: INSTANCING_ON PROBE_VOLUMES_L1 _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS
+          _DBUFFER_MRT3 _LIGHT_LAYERS _MAIN_LIGHT_SHADOWS_CASCADE _REFLECTION_PROBE_BLENDING
+          _REFLECTION_PROBE_BOX_PROJECTION _SHADOWS_SOFT
+        passType: 13
+      - keywords: INSTANCING_ON PROBE_VOLUMES_L1 _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS
+          _DBUFFER_MRT3 _REFLECTION_PROBE_BLENDING _REFLECTION_PROBE_BOX_PROJECTION
+        passType: 13
+      - keywords: INSTANCING_ON PROBE_VOLUMES_L1 _ADDITIONAL_LIGHTS _MAIN_LIGHT_SHADOWS_CASCADE
+        passType: 13
+      - keywords: PROBE_VOLUMES_L1 _ADDITIONAL_LIGHTS
+        passType: 13
+      - keywords: PROBE_VOLUMES_L1 _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS _DBUFFER_MRT3
+          _LIGHT_LAYERS _MAIN_LIGHT_SHADOWS_CASCADE _REFLECTION_PROBE_BLENDING _REFLECTION_PROBE_BOX_PROJECTION
+          _SHADOWS_SOFT
+        passType: 13
+      - keywords: PROBE_VOLUMES_L1 _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS _DBUFFER_MRT3
+          _REFLECTION_PROBE_BLENDING _REFLECTION_PROBE_BOX_PROJECTION
+        passType: 13
+      - keywords: PROBE_VOLUMES_L1 _ADDITIONAL_LIGHTS _MAIN_LIGHT_SHADOWS_CASCADE
+        passType: 13
+  - first: {fileID: 4800000, guid: 564bbd65862636546b5e9e58792f2ac4, type: 3}
+    second:
+      variants:
+      - keywords: INSTANCING_ON
+        passType: 8
+      - keywords: INSTANCING_ON _CASTING_PUNCTUAL_LIGHT_SHADOW
+        passType: 8
+      - keywords: INSTANCING_ON _ADDITIONAL_LIGHTS
+        passType: 13
+      - keywords: INSTANCING_ON _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS
+        passType: 13
+      - keywords: INSTANCING_ON _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS_CASCADE
+          _SHADOWS_SOFT
+        passType: 13
+      - keywords: INSTANCING_ON _ADDITIONAL_LIGHTS _MAIN_LIGHT_SHADOWS_CASCADE
+        passType: 13
+  - first: {fileID: -6465566751694194690, guid: 0b9cb5d722e7ffe47a644c240a675940, type: 3}
+    second:
+      variants:
+      - keywords: PROBE_VOLUMES_L1
+        passType: 13
+      - keywords: PROBE_VOLUMES_L1 _DBUFFER_MRT3
+        passType: 13
+  - first: {fileID: -6465566751694194690, guid: 1a18c1c5908c5954e9d4df079afc87aa, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 8
+      - keywords: _CASTING_PUNCTUAL_LIGHT_SHADOW
+        passType: 8
+      - keywords: 
+        passType: 13
+      - keywords: PROBE_VOLUMES_L1 _ADDITIONAL_LIGHTS
+        passType: 13
+      - keywords: PROBE_VOLUMES_L1 _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS _DBUFFER_MRT3
+          _LIGHT_LAYERS _MAIN_LIGHT_SHADOWS_CASCADE _REFLECTION_PROBE_BLENDING _REFLECTION_PROBE_BOX_PROJECTION
+          _SHADOWS_SOFT
+        passType: 13
+      - keywords: PROBE_VOLUMES_L1 _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS _DBUFFER_MRT3
+          _REFLECTION_PROBE_BLENDING _REFLECTION_PROBE_BOX_PROJECTION
+        passType: 13
+      - keywords: PROBE_VOLUMES_L1 _ADDITIONAL_LIGHTS _MAIN_LIGHT_SHADOWS_CASCADE
+        passType: 13
+  - first: {fileID: -6465566751694194690, guid: b524e774e1c45ee4e9dd2eaafab41305, type: 3}
+    second:
+      variants:
+      - keywords: INSTANCING_ON
+        passType: 8
+      - keywords: INSTANCING_ON _CASTING_PUNCTUAL_LIGHT_SHADOW
+        passType: 8
+      - keywords: INSTANCING_ON
+        passType: 13
+      - keywords: INSTANCING_ON PROBE_VOLUMES_L1 _ADDITIONAL_LIGHTS
+        passType: 13
+      - keywords: INSTANCING_ON PROBE_VOLUMES_L1 _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS
+          _DBUFFER_MRT3 _LIGHT_LAYERS _MAIN_LIGHT_SHADOWS_CASCADE _REFLECTION_PROBE_BLENDING
+          _REFLECTION_PROBE_BOX_PROJECTION _SHADOWS_SOFT
+        passType: 13
+      - keywords: INSTANCING_ON PROBE_VOLUMES_L1 _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS
+          _DBUFFER_MRT3 _REFLECTION_PROBE_BLENDING _REFLECTION_PROBE_BOX_PROJECTION
+        passType: 13
+      - keywords: INSTANCING_ON PROBE_VOLUMES_L1 _ADDITIONAL_LIGHTS _MAIN_LIGHT_SHADOWS_CASCADE
+        passType: 13
+  - first: {fileID: -6465566751694194690, guid: 8aed4a304e0efec43836a483598a747f, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: _DBUFFER_MRT3
+        passType: 0
+      - keywords: 
+        passType: 8
+  - first: {fileID: -6465566751694194690, guid: 0f83cfa6ee67c514fa9deff0377417f3, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: -6465566751694194690, guid: 1ae4bd2a0c6aa884dad819b95735a961, type: 3}
+    second:
+      variants:
+      - keywords: PROBE_VOLUMES_L1
+        passType: 13
+      - keywords: PROBE_VOLUMES_L1 _DBUFFER_MRT3
+        passType: 13
+  - first: {fileID: -6465566751694194690, guid: a0628f7d46bc86643b99525f0de81b8b, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: _DBUFFER_MRT3
+        passType: 0
+  - first: {fileID: -6465566751694194690, guid: 7bf192ed9a2da674e84c28fb928cb304, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: _DBUFFER_MRT3
+        passType: 0
+      - keywords: 
+        passType: 8
+      - keywords: _CASTING_PUNCTUAL_LIGHT_SHADOW
+        passType: 8
+  - first: {fileID: -6465566751694194690, guid: c45b69fc1734b3c44a3807b1456b600b, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 8
+      - keywords: _CASTING_PUNCTUAL_LIGHT_SHADOW
+        passType: 8
+      - keywords: 
+        passType: 13
+      - keywords: PROBE_VOLUMES_L1 _ADDITIONAL_LIGHTS
+        passType: 13
+      - keywords: PROBE_VOLUMES_L1 _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS _DBUFFER_MRT3
+          _LIGHT_LAYERS _MAIN_LIGHT_SHADOWS_CASCADE _REFLECTION_PROBE_BLENDING _REFLECTION_PROBE_BOX_PROJECTION
+          _SHADOWS_SOFT
+        passType: 13
+      - keywords: PROBE_VOLUMES_L1 _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS _DBUFFER_MRT3
+          _REFLECTION_PROBE_BLENDING _REFLECTION_PROBE_BOX_PROJECTION
+        passType: 13
+      - keywords: PROBE_VOLUMES_L1 _ADDITIONAL_LIGHTS _MAIN_LIGHT_SHADOWS_CASCADE
+        passType: 13

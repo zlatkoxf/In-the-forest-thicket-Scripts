@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcc5de329d5228143b8b2ec8bd9f8292, type: 3}
+  m_Name: AudioClipLibrary
+  m_EditorClassIdentifier: Assembly-CSharp::AudioClipLibrary
+  clipLibrary:
+  - key: WindLoop
+    clip: {fileID: 8300000, guid: bbd752b605006a941a9b577033f4063b, type: 3}
+  - key: Wolf
+    clip: {fileID: 8300000, guid: b3a1360bb1d795e499674c56dd5d605c, type: 3}
+  - key: Wolf2
+    clip: {fileID: 8300000, guid: ee7b6dde537925d40ae2f730156e2ea8, type: 3}
+  - key: Wolf3
+    clip: {fileID: 8300000, guid: f72fc2a4ce68c2540867b86c8fdbf03e, type: 3}
+  - key: Branch
+    clip: {fileID: 8300000, guid: 668686c2bccc57343ba853574a3c2045, type: 3}
+  - key: Branch2
+    clip: {fileID: 8300000, guid: d5c0344dd66d3c946ac5612efaa3d3df, type: 3}
+  - key: Branch3
+    clip: {fileID: 8300000, guid: 2c9de560eeb86c34eac70e988c797151, type: 3}
+  - key: Owl
+    clip: {fileID: 8300000, guid: 8e3f89ece8546f8458353c5466990b32, type: 3}
+  - key: Shot
+    clip: {fileID: 8300000, guid: 8fe7b3cc1d7d4ea439b42a9efc3bdf35, type: 3}
+  - key: TakePhoto
+    clip: {fileID: 8300000, guid: 61ff2a0c8f2753147b84a1f6c097aef9, type: 3}
+  - key: Tap
+    clip: {fileID: 8300000, guid: 8ab61e1c066815541968287d3db3e4bb, type: 3}
+  - key: Click
+    clip: {fileID: 8300000, guid: 54f76f2b729e065428fe37938a5db469, type: 3}
+  - key: Crash
+    clip: {fileID: 8300000, guid: 4fcdf83805642cc46a01d5ff3b76c74e, type: 3}
+  - key: AmbientTrigger
+    clip: {fileID: 8300000, guid: 47188a4b427cce940a63a5f639eb6ebe, type: 3}
+  - key: ParanoiaAmbient
+    clip: {fileID: 8300000, guid: 8b2b00a5b633ea043b77cecf06ab8fe8, type: 3}
+  - key: GhostSound
+    clip: {fileID: 8300000, guid: 97a88476b65aa5f49a3d9c926761fe32, type: 3}
+  - key: Bells
+    clip: {fileID: 8300000, guid: 0f70f8283d90f1241a557a9522357a55, type: 3}
+  - key: GrassFootstep1
+    clip: {fileID: 8300000, guid: 1acf374e5f93d0c45b9e841819bb12c4, type: 3}
+  - key: GrassFootstep2
+    clip: {fileID: 8300000, guid: bdf891e3db96bd8419c0de3bbf4cab50, type: 3}
+  - key: GrassFootstep3
+    clip: {fileID: 8300000, guid: 822b30915f67b21438c489e2d5842c1a, type: 3}
+  - key: GrassFootstep4
+    clip: {fileID: 8300000, guid: ac23ca6f422e8984b9971cbf796785ec, type: 3}
+  - key: GrassFootstep5
+    clip: {fileID: 8300000, guid: a0396e8737d3e0b47b957f3b67a0f573, type: 3}
+  - key: GrassFootstep6
+    clip: {fileID: 8300000, guid: 9f9c6e23b58a7414aa90c1ec76d0a9e3, type: 3}
+  - key: DirtFootstep1
+    clip: {fileID: 8300000, guid: cd63f1dfa37125e40b29a6612c0f6094, type: 3}
+  - key: DirtFootstep2
+    clip: {fileID: 8300000, guid: cf12c05cd812fc540b688adce63d6e57, type: 3}
+  - key: DirtFootstep3
+    clip: {fileID: 8300000, guid: cbd9db7397ce5334c8033783c8483665, type: 3}
+  - key: DirtFootstep4
+    clip: {fileID: 8300000, guid: 31403aebf94096c459a7a93709e44ca4, type: 3}
+  - key: DirtFootstep5
+    clip: {fileID: 8300000, guid: e0db4be0c177a1b4a82fa98dbe206e5f, type: 3}
+  - key: GravelFootstep1
+    clip: {fileID: 8300000, guid: 59a727d93429bcf4f8a59b55d83ecfb0, type: 3}
+  - key: GravelFootstep2
+    clip: {fileID: 8300000, guid: 516d579d3007db44098b3298024a8106, type: 3}
+  - key: GravelFootstep3
+    clip: {fileID: 8300000, guid: 30ddaf4d59c78de48868cea5d3428046, type: 3}
+  - key: GravelFootstep4
+    clip: {fileID: 8300000, guid: ba1edc8843a74dd41a2e000d65880157, type: 3}
+  - key: StoneFootstep1
+    clip: {fileID: 8300000, guid: 17995c314815a7e45ba37d658188b36d, type: 3}
+  - key: StoneFootstep2
+    clip: {fileID: 8300000, guid: 59ff140610b67754089a4e66f44d91b3, type: 3}
+  - key: StoneFootstep3
+    clip: {fileID: 8300000, guid: 7e709058eb33d744a9d66586d7dec131, type: 3}
+  - key: StoneFootstep4
+    clip: {fileID: 8300000, guid: 1458fb8281848f844a9bdc27c101cc94, type: 3}
+  - key: StoneFootstep5
+    clip: {fileID: 8300000, guid: 109ffa2c8d0ab42409df7fd8e0d98e99, type: 3}
+  - key: StoneFootstep6
+    clip: {fileID: 8300000, guid: bf188f62adba6d74281d991fce46a942, type: 3}
+  - key: WoodFootstep1
+    clip: {fileID: 8300000, guid: 9ad1ced5f242d724ab6f6ef2b0d2f8c6, type: 3}
+  - key: WoodFootstep2
+    clip: {fileID: 8300000, guid: 39b69b63aeb57bc47bdc3aed253495ff, type: 3}
+  - key: WoodFootstep3
+    clip: {fileID: 8300000, guid: 04dfa918bd26a2d4b99e163a8326fd9b, type: 3}
+  - key: WoodFootstep4
+    clip: {fileID: 8300000, guid: f86d77b5fd2798042a18091879326cef, type: 3}
+  - key: WoodFootstep5
+    clip: {fileID: 8300000, guid: 84b7147a69109da4fbf619e8ac0cc0a7, type: 3}
+  - key: WoodFootstep6
+    clip: {fileID: 8300000, guid: c0311b9fbfd712a4b9c0a62b7b040f85, type: 3}
