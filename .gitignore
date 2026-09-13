@@ -1,0 +1,20 @@
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Build]/
+/[Builds]/
+/[Logs]/
+/[UserSettings]/
+
+# Файлы сборки и автогенерации IDE
+*.csproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+
+# Кэш операционных систем
+Thumbs.db
+.DS_Store
